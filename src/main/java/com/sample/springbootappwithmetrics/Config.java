@@ -32,7 +32,7 @@ public class Config implements MeterRegistryCustomizer<MeterRegistry> {
     private final String app;
 
     Config(final Environment env,
-                  @Value("${spring.application.name:tech-touch-service}") final String app) {
+                  @Value("${spring.application.name:my-service}") final String app) {
         this.env = env;
         this.app = app;
     }
